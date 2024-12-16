@@ -352,6 +352,7 @@ export const SEARCH_ENGINES: Readonly<
     contentScripts: [
       {
         matches: [
+          "*://searxng.459695.xyz/search*",
           "*://searx.be/search*",
           "*://searx.fmac.xyz/search*",
           "*://search.unlocked.link/search*",
